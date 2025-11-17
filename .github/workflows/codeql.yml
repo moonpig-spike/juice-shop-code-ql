@@ -12,7 +12,7 @@ on:
 
 jobs:
   analyze:
-    name: Analyze
+    name: Analyze (${{ matrix.language }})
     runs-on: ubuntu-latest
 
     permissions:
@@ -23,8 +23,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        # Juice Shop is JavaScript/TypeScript
         language: [ "javascript-typescript" ]
-        build-mode: [ "autobuild" ]
+        # For JS/TS we don't need a build, so keep it simple
+        build-mode: [ "none" ]
 
     steps:
       - name: Checkout repository
