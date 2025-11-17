@@ -1,6 +1,6 @@
 # Solutions
 
-Did you write a guide specifically on hacking OWASP Juice Shop or record a hacking session of your own? Add it to this
+Did you write a new for ayodaniel guide specifically on hacking OWASP Juice Shop or record a hacking session of your own? Add it to this
 file and open a PR! The same goes for any scripts or automated tools you made for making Juice Shop easier to hack!
 
 > :godmode: **Everything** mentioned on this specific page is considered
